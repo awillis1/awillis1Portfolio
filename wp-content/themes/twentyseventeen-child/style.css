@@ -8,7 +8,7 @@ Template: twentyseventeen
 Version: 0.1.0
 */
 
-p {color: palevioletred;
+p {color: #386a6b;
 
    font-family: "PT Serif";
 }
@@ -23,5 +23,9 @@ h2.widget-title {color:  #000000;}
 .icon {
     fill: #cccccc;}
 
+h2.entry-title {color: #16121a;}
 
+.entry title a {color: #16121a;}
+
+time.entry-date.published {color: #386a6b;}
 
