@@ -27,12 +27,13 @@
 	<div class="panel-content">
 		<div class="wrap">
 			<header class="entry-header">
-				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+				<?php //the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
-			<hr>
+			<!--<hr>-->
 			<div class="front-page-sidebar">
-       		<aside id="secondary" class="widget-area" role="complementary"><?php
+       		<aside id="secondary" class="widget-area" role="complementary">
+				   <?php
            		$title = get_the_title();
           	 	dynamic_sidebar( $title );
        		?></aside>

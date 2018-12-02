@@ -3,17 +3,18 @@ Theme Name: Twenty Seventeen Child Theme
 Theme URI: 
 Description: A child theme of Twenty Seventeen
 Author: Alyssa Willis
-Author URI: <your website>
+Author URI: img210.awillis1.imgd.ca/portfolio
 Template: twentyseventeen
 Version: 0.1.0
 */
 
 p {color: #386a6b;
 
-   font-family: "PT Serif";
+   font-family: 'Montserrat', sans-serif;
 }
 .site-title {
-   font-family: "Source Sans Pro";
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
 }
 
 .social-navigation a {background-color: #16121a;}
@@ -25,8 +26,14 @@ h2.widget-title {color:  #16121a;}
 
 h2.entry-title {color: #16121a;}
 
-.entry title a {color: #16121a;}
+.entry-title a {color: #16121a;
+                 font-family: 'Montserrat', sans-serif;
+   font-weight: 600;}
 
 time.entry-date.published { display: none;
     color: #386a6b;}
+
+h1.page-title {display: none;}
+
+h1.entry-title {display: none;}
 
