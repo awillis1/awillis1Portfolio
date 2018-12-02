@@ -16,16 +16,17 @@ p {color: #386a6b;
    font-family: "Source Sans Pro";
 }
 
-.social-navigation a {background-color: #000000;}
-h2.widget-title {color:  #000000;}
+.social-navigation a {background-color: #16121a;}
+h2.widget-title {color:  #16121a;}
 
 
 .icon {
-    fill: #cccccc;}
+    fill: #3c9284;}
 
 h2.entry-title {color: #16121a;}
 
 .entry title a {color: #16121a;}
 
-time.entry-date.published {color: #386a6b;}
+time.entry-date.published { display: none;
+    color: #386a6b;}
 
