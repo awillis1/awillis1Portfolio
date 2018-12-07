@@ -17,14 +17,13 @@ p {color: #386a6b;
    font-weight: 600;
 }
 
-.social-navigation a {background-color: #16121a;}
+.social-navigation a {margin-left: 50px; background-color: #16121a; fill: #ffffff;}
 
 h2.widget-title {color:  #16121a;}
 
-.icon {
-    fill: #3c9284;}
 
-h2.entry-title {color: #16121a;}
+
+h2.entry-title {color: #16121a; }
 
 .entry-title a {color: #16121a;
                  font-family: 'Montserrat', sans-serif;
@@ -44,4 +43,10 @@ h1.entry-title {display: none;}
 .widget_categories {display: none;}
 
 .widget_nav_menu {display: none;}
+
+div.wrap {margin: 10; padding: 10;}
+
+div.entry-content {margin-left: 100px;}
+
+
 
