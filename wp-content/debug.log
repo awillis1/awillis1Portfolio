@@ -1,0 +1,12 @@
+[07-Dec-2018 21:53:06 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /Users/student/Desktop/awillis1Portfolio/wp-content/themes/twentyseventeen-child/functions.php on line 25
+[07-Dec-2018 21:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpb_copyright() in /Users/student/Desktop/awillis1Portfolio/wp-content/themes/twentyseventeen-child/footer.php:39
+Stack trace:
+#0 /Users/student/Desktop/awillis1Portfolio/wp-includes/template.php(688): require_once()
+#1 /Users/student/Desktop/awillis1Portfolio/wp-includes/template.php(647): load_template('/Users/student/...', true)
+#2 /Users/student/Desktop/awillis1Portfolio/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Users/student/Desktop/awillis1Portfolio/wp-content/themes/twentyseventeen-child/index.php(66): get_footer()
+#4 /Users/student/Desktop/awillis1Portfolio/wp-includes/template-loader.php(74): include('/Users/student/...')
+#5 /Users/student/Desktop/awillis1Portfolio/wp-blog-header.php(19): require_once('/Users/student/...')
+#6 /Users/student/Desktop/awillis1Portfolio/index.php(17): require('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/awillis1Portfolio/wp-content/themes/twentyseventeen-child/footer.php on line 39
