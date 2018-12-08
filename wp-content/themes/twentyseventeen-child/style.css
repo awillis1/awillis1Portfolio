@@ -55,4 +55,13 @@ div.entry-content {margin-left: 100px;}
 
 .page-id-19 .social-navigation a {margin-left: 50px;} */
 
+.main-navigation a {color: #000000;}
+
+.main-navigation a:hover {color: #a48179;}
+
+.main-navigation .menu-item {color: #000000;}
+
+.main-navigation .menu-item a:hover {color: #a48179; background-color: #ffffff;}
+
+.page-id-2 div.wrap {margin: 10; padding: 10; margin-top: 0;}
 
