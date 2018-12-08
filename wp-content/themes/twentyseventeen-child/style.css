@@ -65,3 +65,8 @@ div.entry-content {margin-left: 100px;}
 
 .page-id-2 div.wrap {margin: 10; padding: 10; margin-top: 0;}
 
+.byline {display: none;}
+.author-vcard {display: none;}
+.entry-meta {display: none;}
+
+.page-id-17 .footer {overflow: hidden;}
