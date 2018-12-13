@@ -17,7 +17,7 @@ p {color: #000000;
    font-weight: 600;
 }
 
-.social-navigation a {margin-left: 50px; background-color: #16121a; fill: #ffffff;}
+.social-navigation a {margin-left: 50px; margin-right: 5px; background-color: #16121a; fill: #ffffff;}
 
 h2.widget-title {color:  #16121a;}
 
@@ -35,7 +35,9 @@ h1.page-title {display: none;}
 
 h1.entry-title {display: none;}
 
-.page-id-17 .site-content {display: none;}
+.page-id-17 .site-content {margin: 0; padding: 0;} 
+
+.page-id-17  .content-area {display:none;}
 
 .widget_recent_entries {display: none;}
 
@@ -63,7 +65,7 @@ div.entry-content {margin-left: 100px;}
 
 .main-navigation .menu-item a:hover {color: #a48179; background-color: #ffffff;}
 
-.page-id-2 div.wrap {margin: 10; padding: 10; margin-top: 0;}
+.page-id-2 .entry-content {margin: 0; padding:0; margin-top: 0; margin-bottom: 20px;}
 
 .byline {display: none;}
 .author-vcard {display: none;}
@@ -74,3 +76,12 @@ div.entry-content {margin-left: 100px;}
 .single-featured-image-header {display: none;}
 
 .post-thumbnail {width: 60%; height: 60%;}
+
+.bottom-info {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    float: left;
+
+                }
+
+.page-id-19 .elementor-widget-wrap {border-radius: 50%;}
