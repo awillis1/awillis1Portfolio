@@ -182,4 +182,7 @@ div.entry-content {
     text-transform: uppercase;
 }
 
-div.element.element_1.excerpt {display: none;}
+div.element.element_1.excerpt {
+    display: none;
+}
+
