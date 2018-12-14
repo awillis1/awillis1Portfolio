@@ -16,7 +16,7 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php twentyseventeen_edit_link( get_the_ID() ); ?>
-		<?php get_sidebar(); ?>
+		<!-- <?php //get_sidebar(); ?> -->
 
 	</header><!-- .entry-header -->
 	<div class="entry-content">

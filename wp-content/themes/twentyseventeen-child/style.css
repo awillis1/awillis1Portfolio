@@ -55,9 +55,9 @@ h1.entry-title {
     padding: 0;
 } 
 
-.page-id-17  .content-area {
+/* .page-id-17  .content-area {
     display:none;
-}
+} */
 
 .widget_recent_entries {
     display: none;
@@ -154,3 +154,5 @@ div.entry-content {
     color: #a48179;
     text-decoration: none;
 }
+
+.page-id-17 div.wrap {width: 150%;}
