@@ -147,12 +147,37 @@ div.entry-content {
                 }
 
 .bottom-info a {
-    color: #000000;
+    color: #a48179;
 }
 
 .bottom-info a:hover {
-    color: #a48179;
+    color: #000000;
     text-decoration: none;
 }
 
-.page-id-17 div.wrap {width: 150%;}
+.page-id-2 div.wrap {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.page-id-2 .social-navigation {
+    padding: 20px;
+}
+
+.page-id-2 .bottom-info {
+    padding: 10px;
+}
+
+.pagination.dark {
+    display: none;
+}
+
+.nav-subtitle {
+    color: #a48179;
+}
+
+.nav-title {
+    color: #000000;
+    text-transform: uppercase;
+}
